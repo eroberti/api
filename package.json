@@ -15,6 +15,10 @@
   ],
   "author": "Enzo Roberti",
   "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/eroberti/api.git"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
