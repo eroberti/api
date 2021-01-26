@@ -4,6 +4,9 @@ module.exports = {
   target: 'node',
   mode: 'development',
   entry: './src/server.ts',
+  resolve: {
+    extensions: ['.ts', '.js'],
+  },
   module: {
     rules: [
       {
